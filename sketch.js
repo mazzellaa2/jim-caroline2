@@ -21,7 +21,7 @@ function draw() {
   s1 = s1 - 50;
   s2 = s2 - 50;
 
-  if (s1 < 0) {
+  if (s2 < 0) {
     s1 = width;
     s2=height;
   }
