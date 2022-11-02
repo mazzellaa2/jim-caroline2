@@ -18,10 +18,10 @@ function draw() {
   noStroke();
   rect(x, y, s1, s2);
 
-  s1 = s1 - 5;
-  s2 = s2 - 5;
+  s1 = s1 - 50;
+  s2 = s2 - 50;
 
-  if (s1 < 960) {
+  if (s1 < 0) {
     s1 = width;
     s2=height;
   }
