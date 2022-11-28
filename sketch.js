@@ -1,7 +1,7 @@
 var x, y, s1, s2;
 
 function setup() {
-  createCanvas(windowWidth,windowHeight);
+  createCanvas(1920,1080);
   rectMode(CENTER);
   x = width/2;
   y = height/2;
