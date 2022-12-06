@@ -11,15 +11,15 @@ function setup() {
 }
 
 function draw() {
-  background(209, 114, 19, 10);
+  background(233, 116, 81, 20);
 
   frameRate(13);
-  fill(66, 197, 245, 70);
+  fill(54, 186, 180, 70);
   noStroke();
   rect(x, y, s1, s2);
 
-  s1 = s1 - 50;
-  s2 = s2 - 50;
+  s1 = s1 - 5;
+  s2 = s2 - 5;
 
   if (s2 < 0) {
     s1 = width;
